@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "H",
+    "en": "Hydrogen is the most abundant element in the universe.",
+    "bn": "হাইড্রোজেন মহাবিশ্বে সবচেয়ে বেশি পরিমাণে রয়েছে।"
+  },
+  {
+    "symbol": "He",
+    "en": "Helium makes your voice squeaky because it changes sound speed in your throat.",
+    "bn": "হিলিয়াম গলা দিয়ে শব্দের গতি বদলে দেয়, তাই কণ্ঠস্বর চিকন হয়ে যায়।"
+  },
+  {
+    "symbol": "Li",
+    "en": "Lithium is used in phone and EV batteries.",
+    "bn": "লিথিয়াম ফোন ও ইভি ব্যাটারিতে ব্যবহৃত হয়।"
+  },
+  {
+    "symbol": "C",
+    "en": "Diamond and graphite are both made of carbon.",
+    "bn": "হীরা আর গ্রাফাইট—দুটিই কার্বন দিয়ে তৈরি।"
+  },
+  {
+    "symbol": "O",
+    "en": "Oxygen makes up about 21% of Earth’s atmosphere.",
+    "bn": "অক্সিজেন পৃথিবীর বায়ুমণ্ডলের প্রায় ২১%।"
+  },
+  {
+    "symbol": "Na",
+    "en": "Sodium explodes when it touches water.",
+    "bn": "সোডিয়াম পানির সংস্পর্শে গেলে বিস্ফোরিত হতে পারে।"
+  },
+  {
+    "symbol": "Fe",
+    "en": "Iron is essential for blood hemoglobin.",
+    "bn": "লোহা রক্তের হিমোগ্লোবিনের জন্য জরুরি।"
+  },
+  {
+    "symbol": "Au",
+    "en": "Gold is so malleable that one gram can be beaten into a square meter sheet.",
+    "bn": "সোনা এত নমনীয় যে এক গ্রাম সোনা দিয়ে প্রায় এক বর্গমিটার পাত বানানো যায়।"
+  },
+  {
+    "symbol": "Hg",
+    "en": "Mercury is the only metal that’s liquid at room temperature.",
+    "bn": "পারদ একমাত্র ধাতু যা ঘরোয়া তাপমাত্রায় তরল।"
+  },
+  {
+    "symbol": "U",
+    "en": "Uranium is used as fuel in nuclear reactors.",
+    "bn": "ইউরেনিয়াম পারমাণবিক রিঅ্যাক্টরে জ্বালানি হিসেবে ব্যবহৃত হয়।"
+  }
+]

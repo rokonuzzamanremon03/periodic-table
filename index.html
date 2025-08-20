@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Periodic Table Learner – EN/BN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <header class="sticky top-0 z-10 bg-white/90 backdrop-blur border-b">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <h1 class="text-xl font-bold">Periodic Table Learner</h1>
+        <div class="flex items-center gap-3">
+          <button id="lang-en" class="px-3 py-1 rounded border">EN</button>
+          <button id="lang-bn" class="px-3 py-1 rounded border">BN</button>
+          <button id="theme-toggle" class="px-3 py-1 rounded border">☾</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-6">
+      <section class="mb-6">
+        <div class="flex flex-col md:flex-row md:items-center gap-3">
+          <input id="search" placeholder="Search name, symbol or number" class="w-full md:w-1/2 px-3 py-2 rounded border" />
+          <div class="text-sm opacity-80" id="results-count"></div>
+        </div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-lg font-semibold mb-2" data-i18n="table_title">Periodic Table</h2>
+        <div id="table"></div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-lg font-semibold mb-2" data-i18n="quiz_title">Quiz</h2>
+        <div class="flex items-center gap-3 mb-3">
+          <select id="quiz-type" class="px-3 py-2 rounded border">
+            <option value="name_to_symbol">Name → Symbol</option>
+            <option value="symbol_to_name">Symbol → Name</option>
+            <option value="number_to_name">Atomic No → Name</option>
+            <option value="name_to_number">Name → Atomic No</option>
+          </select>
+          <button id="quiz-start" class="px-4 py-2 rounded bg-slate-900 text-white">Start</button>
+          <div id="quiz-status" class="text-sm opacity-80"></div>
+        </div>
+        <div id="quiz-box" class="hidden p-4 rounded border bg-white"></div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-lg font-semibold mb-2" data-i18n="fun_title">Fun Facts</h2>
+        <div id="fun-fact" class="p-4 rounded border bg-white"></div>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-lg font-semibold mb-2" data-i18n="mnemo_title">Mnemonics</h2>
+        <div id="mnemonics" class="grid md:grid-cols-2 gap-3"></div>
+      </section>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="hidden fixed inset-0 bg-black/50 items-center justify-center p-4">
+      <div class="max-w-md w-full rounded-xl bg-white p-4">
+        <div class="flex justify-between items-center mb-2">
+          <h3 id="modal-title" class="text-lg font-semibold"></h3>
+          <button id="modal-close" class="text-slate-500">✕</button>
+        </div>
+        <div id="modal-body" class="text-sm space-y-2"></div>
+      </div>
+    </div>
+
+    <footer class="py-8 text-center text-xs opacity-70">
+      <p>Made for learning • EN/BN • Netlify-ready</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
