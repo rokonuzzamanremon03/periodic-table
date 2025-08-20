@@ -1,0 +1,22 @@
+[
+  {
+    "group": "1",
+    "en": "Group 1 (Alkali): Happy Little NaK Rubs Cs Fries (H, Li, Na, K, Rb, Cs, Fr)",
+    "bn": "গ্রুপ ১ (ক্ষার ধাতু): হা-লি-না-কে-রু-ছি-ফে (H, Li, Na, K, Rb, Cs, Fr)"
+  },
+  {
+    "group": "2",
+    "en": "Group 2 (Alkaline Earth): Be Mg Ca Sr Ba Ra",
+    "bn": "গ্রুপ ২ (মৃৎক্ষার): বি-এম-সি-এস-বা-রা (Be, Mg, Ca, Sr, Ba, Ra)"
+  },
+  {
+    "group": "17",
+    "en": "Group 17 (Halogens): F Cl Br I At",
+    "bn": "গ্রুপ ১৭ (হ্যালোজেন): ফ ক্ল ব্র আই অ্যাট"
+  },
+  {
+    "group": "18",
+    "en": "Group 18 (Noble gases): He Ne Ar Kr Xe Rn",
+    "bn": "গ্রুপ ১৮ (নিষ্ক্রিয় গ্যাস): হে নে আর ক্র জে আরএন"
+  }
+]
